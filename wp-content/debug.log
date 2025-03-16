@@ -1,0 +1,316 @@
+[16-Mar-2025 16:09:22 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar08@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 122
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaaaaaaaa
+    [zodiac] => aaaaaaa
+    [relationship_type] => casual
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:09:39 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar09@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 122
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaaaaaaaa
+    [zodiac] => aaaaaaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:09:48 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar090@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 122
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaaaaaaaa
+    [zodiac] => aaaaaaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:09:48 UTC] WordPress database error Unknown column 'email' in 'field list' for query INSERT INTO `wp_dating_users` (`name`, `email`, `password`, `age`, `height`, `gender`, `interested_in`, `country`, `phone`, `profile_image`, `description`, `likes`, `income`, `zodiac`, `relationship_type`, `created_at`) VALUES ('Abhijit Haldar', 'abhijithaldar090@gmail.com', '$P$B9gmJtrWV6.fyAI9mVKXmJ4MkiDy5L1', '29', '122', 'male', 'female', 'India', '7003716350', 'http://localhost/datingsite/wp-content/uploads/2025/03/interview.jpg', 'aaaaaaaaaaaaaaaaa', 'aaaaaaaaaaaa', 'aaaaaaaaa', 'aaaaaaa', 'long term', '2025-03-16 16:09:48') made by do_action('wp_ajax_nopriv_dating_handle_registration'), WP_Hook->do_action, WP_Hook->apply_filters, dating_handle_registration
+[16-Mar-2025 16:12:16 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar090@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 122
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaaaaaaaa
+    [zodiac] => aaaaaaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:12:16 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SHOW FULL COLUMNS FROM `wp_dating_users` made by do_action('wp_ajax_nopriv_dating_handle_registration'), WP_Hook->do_action, WP_Hook->apply_filters, dating_handle_registration
+[16-Mar-2025 16:12:26 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar090@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 122
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaaaaaaaa
+    [zodiac] => aaaaaaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:12:26 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SHOW FULL COLUMNS FROM `wp_dating_users` made by do_action('wp_ajax_nopriv_dating_handle_registration'), WP_Hook->do_action, WP_Hook->apply_filters, dating_handle_registration
+[16-Mar-2025 16:14:32 UTC] Table created or updated: wp_dating_users
+[16-Mar-2025 16:15:14 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar08@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 165
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaa
+    [zodiac] => aaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:15:25 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar
+    [email] => abhijithaldar100@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 165
+    [gender] => male
+    [interested_in] => female
+    [country] => India
+    [phone] => 7003716350
+    [description] => aaaaaaaaaaaaaaaaaaaaaa
+    [likes] => aaaaaaaaaaaa
+    [income] => aaa
+    [zodiac] => aaa
+    [relationship_type] => long term
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 16:35:42 UTC] Received Data: Array
+(
+    [name] => Abhijit Haldar2
+    [email] => abhijithaldar102@gmail.com
+    [password] => 123456
+    [age] => 29
+    [height] => 162
+    [gender] => female
+    [interested_in] => male
+    [country] => India
+    [phone] => 7003716351
+    [description] => dddddddddddddd
+    [likes] => dddd
+    [income] => dd
+    [zodiac] => dddd
+    [relationship_type] => casual
+    [action] => dating_handle_registration
+)
+
+[16-Mar-2025 17:16:44 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:16:44 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar08@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:16:50 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:16:50 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar08@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:17:16 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:17:16 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar08@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:25:32 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:25:32 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:25:32 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:25:39 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:25:39 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:25:39 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:25:53 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:25:53 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:25:53 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:27:06 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:27:06 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:27:06 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:27:14 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:27:14 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:27:14 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:27:17 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:27:17 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:27:17 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:27:19 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:27:19 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:27:19 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:28:08 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:28:08 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:28:08 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:30:08 UTC] PHP Warning:  Undefined property: stdClass::$password in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 79
+[16-Mar-2025 17:30:08 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2652
+[16-Mar-2025 17:30:08 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php:2653
+Stack trace:
+#0 D:\xampp\htdocs\datingsite\wp-includes\pluggable.php(2653): hash_equals(Object(SensitiveParameterValue), Object(SensitiveParameterValue))
+#1 D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php(79): wp_check_password('123456', NULL)
+#2 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(324): dating_user_login('')
+#3 D:\xampp\htdocs\datingsite\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\datingsite\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\datingsite\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\datingsite\wp-includes\pluggable.php on line 2653
+[16-Mar-2025 17:33:01 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:33:01 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:33:09 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (2) for the number of arguments passed (4). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:33:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND gender = '18'' at line 4 for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 AND gender = '18' made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:34:53 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:34:53 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:36:57 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:36:57 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:37:03 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (2) for the number of arguments passed (4). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:37:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND gender = '18'' at line 4 for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 AND gender = '18' made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:37:56 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query does not contain the correct number of placeholders (1) for the number of arguments passed (3). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.8.3.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 17:37:56 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT * FROM wp_dating_users 
+          WHERE email != 'abhijithaldar100@gmail.com' 
+          AND user_role != 'administrator' 
+          ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 17:55:51 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 134
+[16-Mar-2025 17:56:13 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 134
+[16-Mar-2025 17:57:45 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in D:\xampp\htdocs\datingsite\wp-content\plugins\dating-user-login\dating-login.php on line 134
+[16-Mar-2025 18:11:37 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[16-Mar-2025 18:41:57 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SELECT name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' AND age BETWEEN 18 AND 100 ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 18:42:01 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SELECT name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' AND age BETWEEN 18 AND 100 ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[16-Mar-2025 18:44:45 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SHOW FULL COLUMNS FROM `wp_dating_users` made by do_action('wp_ajax_nopriv_dating_handle_registration'), WP_Hook->do_action, WP_Hook->apply_filters, dating_handle_registration

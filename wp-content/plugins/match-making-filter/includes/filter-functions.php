@@ -9,23 +9,21 @@ function get_filtered_matches() {
     $table_name = $wpdb->prefix . 'dating_users';
     $current_user_email = wp_get_current_user()->user_email;
 
-    if (empty($current_user_email)) {
-        echo json_encode(array('success' => false, 'message' => 'Invalid user session.'));
-        wp_die();
-    }
-
     // Get filter parameters
-    $age_min = isset($_POST['age_min']) ? intval($_POST['age_min']) : 18;
-    $age_max = isset($_POST['age_max']) ? intval($_POST['age_max']) : 100;
-    $gender = !empty($_POST['gender']) ? sanitize_text_field($_POST['gender']) : null;
-    $country = !empty($_POST['country']) ? sanitize_text_field($_POST['country']) : null;
-    $relationship_type = !empty($_POST['relationship_type']) ? sanitize_text_field($_POST['relationship_type']) : null;
+    $age_min = isset($_POST['age_min']) ? intval($_POST['age_min']) : null;
+    $age_max = isset($_POST['age_max']) ? intval($_POST['age_max']) : null;
+    $gender = isset($_POST['gender']) ? sanitize_text_field($_POST['gender']) : '';
+    $country = isset($_POST['country']) ? sanitize_text_field($_POST['country']) : '';
+    $relationship_type = isset($_POST['relationship_type']) ? sanitize_text_field($_POST['relationship_type']) : '';
 
-    // Base query
-    $query = "SELECT name, age, gender, country, profile_image FROM $table_name WHERE email != %s AND age BETWEEN %d AND %d";
-    $params = [$current_user_email, $age_min, $age_max];
+    // Build query to load all profiles by default
+    $query = "SELECT * FROM $table_name WHERE email != %s";
+    $params = [$current_user_email];
 
-    // Add filters dynamically
+    if ($age_min && $age_max) {
+        $query .= " AND age BETWEEN %d AND %d";
+        array_push($params, $age_min, $age_max);
+    }
     if ($gender) {
         $query .= " AND gender = %s";
         $params[] = $gender;
@@ -39,16 +37,18 @@ function get_filtered_matches() {
         $params[] = $relationship_type;
     }
 
-    // Add ORDER BY and LIMIT at the end
-    $query .= " ORDER BY RAND() LIMIT 10";
-
-    // Prepare and execute query
+    // Fetch results with a limit of 20 users
+    $query .= " ORDER BY RAND() LIMIT 20";
     $results = $wpdb->get_results($wpdb->prepare($query, ...$params));
 
-    // Return results
+    // Return the profiles
     echo json_encode(['success' => true, 'data' => $results]);
     wp_die();
 }
+
+add_action('wp_ajax_get_filtered_matches', 'get_filtered_matches');
+add_action('wp_ajax_nopriv_get_filtered_matches', 'get_filtered_matches');
+
 
 // Register AJAX actions
 add_action('wp_ajax_get_filtered_matches', 'get_filtered_matches');

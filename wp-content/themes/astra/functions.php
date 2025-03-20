@@ -209,3 +209,17 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+
+
+// function custom_auth_menu() {
+//     if (is_user_logged_in()) {
+//         echo '<a href="' . wp_logout_url(home_url()) . '" class="logout-button">Logout</a>';
+//     } else {
+//         echo '<a href="' . wp_login_url() . '" class="login-button">Login</a>';
+//         echo '<a href="' . wp_registration_url() . '" class="register-button">Register</a>';
+//     }
+// }
+
+// // Use this function in your theme where you want the buttons to appear
+// add_shortcode('auth_menu', 'custom_auth_menu');

@@ -314,3 +314,10 @@ Stack trace:
 [16-Mar-2025 18:41:57 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SELECT name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' AND age BETWEEN 18 AND 100 ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
 [16-Mar-2025 18:42:01 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SELECT name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' AND age BETWEEN 18 AND 100 ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
 [16-Mar-2025 18:44:45 UTC] WordPress database error Table 'datesite.wp_dating_users' doesn't exist for query SHOW FULL COLUMNS FROM `wp_dating_users` made by do_action('wp_ajax_nopriv_dating_handle_registration'), WP_Hook->do_action, WP_Hook->apply_filters, dating_handle_registration
+[17-Mar-2025 07:44:41 UTC] Automatic updates starting...
+[17-Mar-2025 07:44:42 UTC] Automatic updates complete.
+[17-Mar-2025 07:44:48 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[20-Mar-2025 03:41:35 UTC] Automatic updates starting...
+[20-Mar-2025 03:41:35 UTC]   Automatic plugin updates starting...
+[20-Mar-2025 03:41:35 UTC]   Automatic plugin updates complete.
+[20-Mar-2025 03:41:36 UTC] Automatic updates complete.

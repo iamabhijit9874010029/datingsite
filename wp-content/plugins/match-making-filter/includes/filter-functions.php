@@ -16,7 +16,7 @@ function get_filtered_matches() {
     $relationship_type = isset($_POST['relationship_type']) ? sanitize_text_field($_POST['relationship_type']) : '';
 
     // Base Query
-    $query = "SELECT id, name, age, gender, country, profile_image FROM $table_name WHERE email != %s";
+    $query = "SELECT user_id, name, age, gender, country, profile_image FROM $table_name WHERE email != %s";
     $params = [$current_user_email];
 
     // Dynamic Filters

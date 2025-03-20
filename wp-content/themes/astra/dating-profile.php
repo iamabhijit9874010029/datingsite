@@ -8,7 +8,7 @@ if (isset($_GET['user_id'])) {
     $user_id = intval($_GET['user_id']);
     $table_name = $wpdb->prefix . 'dating_users';
 
-    $user = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_name WHERE id = %d", $user_id));
+    $user = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_name WHERE user_id = %d", $user_id));
 
     if ($user) {
         echo "<style>
@@ -99,3 +99,11 @@ if (isset($_GET['user_id'])) {
 }
 
 get_footer();
+
+
+
+?>
+<div class="profile-container">
+    <h2><?php the_author_meta('display_name'); ?></h2>
+    <?php echo do_shortcode('[wpci_chat]'); ?>
+</div>

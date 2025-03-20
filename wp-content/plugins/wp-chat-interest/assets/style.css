@@ -1,0 +1,98 @@
+.wpci-chat-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#chat-box {
+    display: none;
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#send-message {
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.wpci-chat-container {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+#wpci-chat-history {
+    max-height: 300px; /* Set the maximum height */
+    overflow-y: auto; /* Enable scrolling when content exceeds max height */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+/* Message styles */
+.wpci-message {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.wpci-message-sent {
+    background: #d1e7ff;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.wpci-message-received {
+    background: #e9ecef;
+    align-self: flex-start;
+}
+
+/* Chat input area */
+#wpci-chat-message {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.wpci-send-message {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wpci-send-message:hover {
+    background: #0056b3;
+}

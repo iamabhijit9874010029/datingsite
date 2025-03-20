@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
                     let resultsHTML = '<h3>Matches Found</h3><div class="match-grid">';
                     data.data.forEach(function (user) {
                         let profileImg = user.profile_image ? user.profile_image : 'default-profile.png';
-                        let profileURL = `/datingsite/dating-profile/?user_id=${user.id}`; // Update if needed
+                        let profileURL = `/datingsite/dating-profile/?user_id=${user.user_id}`; // Update if needed
 
                         resultsHTML += `
                             <div class="match-card">

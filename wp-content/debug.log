@@ -337,3 +337,56 @@ Stack trace:
 [20-Mar-2025 09:45:21 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
 [20-Mar-2025 09:55:53 UTC] PHP Deprecated:  Function the_block_template_skip_link is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
 [20-Mar-2025 09:56:03 UTC] PHP Deprecated:  Function the_block_template_skip_link is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in D:\xampp\htdocs\datingsite\wp-includes\functions.php on line 6114
+[20-Mar-2025 14:21:39 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:21:49 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:21:51 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:21:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND gender = 'male'' at line 2 for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 AND gender = 'male' made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:22:16 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:25:42 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:25:52 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:16 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:19 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:26 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:31 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:37 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:28:39 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar100@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:30:54 UTC] WordPress database error Unknown column 'user_role' in 'where clause' for query SELECT id, name, age, gender, country, profile_image FROM wp_dating_users 
+              WHERE email != 'abhijithaldar08@gmail.com' AND user_role != 'administrator' ORDER BY RAND() LIMIT 10 made by do_action('wp_ajax_get_filtered_matches'), WP_Hook->do_action, WP_Hook->apply_filters, get_filtered_matches
+[20-Mar-2025 14:33:42 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:33:50 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' AND relationship_type = 'casual' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:34:26 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:35:23 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar08@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:20 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:29 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:31 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:36 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:41 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:44 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:49 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:36:51 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:03 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:07 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:11 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:15 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:17 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:20 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' AND gender = 'female' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:25 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' AND gender = 'female' AND relationship_type = 'casual' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:28 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:31 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:36 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' AND gender = 'female' AND relationship_type = 'long term' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:42 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' AND gender = 'male' AND relationship_type = 'long term' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:45 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10
+[20-Mar-2025 14:37:52 UTC] SELECT id, name, age, gender, country, profile_image FROM wp_dating_users WHERE email != 'abhijithaldar100@gmail.com' ORDER BY RAND() LIMIT 10

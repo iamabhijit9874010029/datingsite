@@ -163,7 +163,7 @@ function dating_logout_button_shortcode() {
     ob_start();
     ?>
     <button id="dating-logout-btn">Logout</button>
-<!-- yes -->
+
     <script>
         document.getElementById('dating-logout-btn').addEventListener('click', function() {
             fetch("<?php echo admin_url('admin-ajax.php'); ?>", {
